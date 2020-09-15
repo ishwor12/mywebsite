@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  user-select: none;
+}
+.nav-bar {
+  text-transform: uppercase;
+  background-color: rgba(28, 99, 253, 0.5);
+  position: absolute;
+  height: 93px;
+  width: 100%;
+  border-bottom: 2px solid blue;
+}
+.logo {
+  height: auto;
+  width: 140px;
+  padding: 10px 30px;
+}
+.nav-bar ul {
+  list-style: none;
+  text-align: right;
+}
+.nav-bar ul li {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+.nav-bar ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding: 6px 13px;
+}
+.nav-bar ul li a:hover,
+.nav-bar ul li a.active {
+  display: block;
+  border-bottom: 3px solid whitesmoke;
+}
+.center {
+  position: absolute;
+  top: 85%;
+  left: 32%;
+  transform: translate(-50% -50%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.buttons button {
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: black;
+  background-color: rgba(85, 17, 245, 0.507);
+  border: 1px solid gray;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.buttons button:hover {
+  background: rgba(28, 99, 253, 0.5);
+}
+.buttons .btn {
+  margin-left: 45px;
+  border-radius: 5px;
+  border: 1px solid rgba(28, 99, 253, 0.5);
+}
+.engineering-paragraph {
+  float: left;
+  width: 32%;
+  border: 2px solid red;
+  color: darkcyan;
+  padding: 10px;
+}
+
+.IT-paragraph {
+  float: left;
+  width: 31%;
+  border: 2px solid red;
+  color: darkcyan;
+  padding: 10px;
+}
+.involvement-paragraph {
+  float: left;
+  width: 31%;
+  border: 2px solid red;
+  color: darkcyan;
+  padding: 10px;
+}
+/* social mediA icon style*/
+.fa {
+  padding: 5px;
+  width: 15px;
+  border-radius: 10%;
+  margin: 3px 2px;
+  text-decoration: none;
+  float: right;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #f73d04;
+  color: white;
+}
+/* End of social mediA icon style*/

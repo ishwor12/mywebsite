@@ -1,0 +1,13 @@
+@media (max-width: 500px) {
+  .nav-bar {
+    font-size: 8px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .nav-bar,
+  .social-media-icon {
+    float: left;
+  }
+}
